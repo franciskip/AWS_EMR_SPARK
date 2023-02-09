@@ -1,0 +1,16 @@
+wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2020-01.parquet
+wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet
+wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2020-03.parquet
+wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2020-04.parquet
+wget https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2020-12.parquet
+
+gsutil cp yellow_tripdata_2020-01.parquet gs://yego-bucket-dataproc/data
+
+gsutil cp yellow_tripdata_2021-01.parquet gs://yego-bucket-dataproc/data
+
+
+gsutil cp yellow_tripdata_2020-03.parquet gs://datapirates/ourdata
+
+gsutil cp yellow_tripdata_2020-12.parquet gs://yego-bucket-dataproc/data
+
+gsutil cp yellow_tripdata_2021-04.parquet gs://yego-bucket-dataproc/data
